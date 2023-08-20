@@ -1,0 +1,6 @@
+build: ./
+services:
+  app:
+    image: "myapp"
+    ports:
+      - "9999:9999"
